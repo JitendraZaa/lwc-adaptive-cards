@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set to get access to adaptive card demo</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>adaptivecard</label>
+    <tabSettings>
+        <tab>Adaptive_Card_Demo</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
