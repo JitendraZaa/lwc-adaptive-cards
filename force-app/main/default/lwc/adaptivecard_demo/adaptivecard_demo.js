@@ -11,8 +11,7 @@ export default class Adaptivecard_demo extends LightningElement {
  
     connectedCallback() {  
         loadScript(this, adaptivecardsLib ).then(() => {  
-            // Create an AdaptiveCard instance
-            //var adaptiveCardObj = new adaptivecardsLib.AdaptiveCard(); 
+            // Create an AdaptiveCard instance 
             var adaptiveCard = new AdaptiveCards.AdaptiveCard();
             //Let adaptive card know that its running context is LWC
             adaptiveCard.lwcRef = this; 
